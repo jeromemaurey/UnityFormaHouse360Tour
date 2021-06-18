@@ -16,33 +16,111 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -1.607061843779718,
-        "pitch": 0.003282682911180501,
-        "fov": 1.6257365617269903
+        "yaw": -1.5752026096503222,
+        "pitch": 0.002231244782379349,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.1770183264870067,
-          "pitch": 0.03635102741488083,
+          "yaw": -1.1455178208886316,
+          "pitch": 0.12249849718666539,
           "rotation": 0,
-          "target": "1-living-room"
+          "target": "1-entrance"
+        },
+        {
+          "yaw": -0.02915840036921402,
+          "pitch": 0.24487867077374226,
+          "rotation": 0,
+          "target": "4-lounge"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.6024111304882478,
-          "pitch": -0.06747824381460354,
-          "title": "Welcome to the Unity Forma House.",
-          "text": "This walk-through was created using Unity Forma and all 360 images batch exported using Render Studio.<div><br></div><div>Watch the&nbsp;<b>How to build a real-time 3D property configurator with Unity Forma </b>on-demand here:&nbsp;<a href=\"https://bit.ly/3gxETnl\" style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; background-color: rgba(58, 68, 84, 0.8);\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(17, 85, 204); background-color: transparent; font-weight: 400; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;\">https://bit.ly/3gxETnl</span></a></div><div><br></div>"
+          "yaw": -1.5768408659547468,
+          "pitch": 0.01843236200346965,
+          "title": "Unity Forma House Demo",
+          "text": "<div>Watch our webinar, to learn how to create an immersive and interactive property walk-through using Unity Forma, here&nbsp;https://bit.ly/3gxETnl</div><div><br></div><div>All the 360 images for this walk-through were rendered using Unity Forma and Render Studio.</div><div><i><br></i></div><div><i>Content from the ArchVizPro assets, available on the Unity Asset Store!</i><br></div><div><br></div>"
         }
       ]
     },
     {
-      "id": "1-living-room",
+      "id": "1-entrance",
+      "name": "Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -1.6476478936345806,
+        "pitch": -0.1457303887060597,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7408533129149895,
+          "pitch": 0.3754941737132569,
+          "rotation": 0,
+          "target": "2-living-room"
+        },
+        {
+          "yaw": 1.5767541705441541,
+          "pitch": 0.3308474666606145,
+          "rotation": 0,
+          "target": "4-lounge"
+        },
+        {
+          "yaw": 1.3280805614657254,
+          "pitch": -0.10046992181805159,
+          "rotation": 0,
+          "target": "5-home-office"
+        },
+        {
+          "yaw": -0.4208679357388725,
+          "pitch": 0.4658190285881787,
+          "rotation": 0,
+          "target": "7-patio"
+        },
+        {
+          "yaw": 1.961168604746983,
+          "pitch": 0.3159456642122418,
+          "rotation": 0,
+          "target": "0-courtyard"
+        },
+        {
+          "yaw": -1.2483994542110608,
+          "pitch": 0.31906626427896967,
+          "rotation": 0,
+          "target": "3-kitchen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-living-room",
       "name": "Living Room",
       "levels": [
         {
@@ -57,44 +135,54 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -1.5889924008624448,
-        "pitch": -0.04996525671605312,
-        "fov": 1.6257365617269903
+        "yaw": -1.9931023337285367,
+        "pitch": 0.004032743218330026,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.19996732287320285,
-          "pitch": 0.07461693260095537,
+          "yaw": -0.16194669106421955,
+          "pitch": 0.3758819114733072,
           "rotation": 0,
-          "target": "2-kitchen"
+          "target": "3-kitchen"
         },
         {
-          "yaw": 1.819259709900197,
-          "pitch": 0.0899507142416276,
+          "yaw": 1.1850023962642169,
+          "pitch": 0.27834522215266766,
           "rotation": 0,
-          "target": "0-courtyard"
+          "target": "1-entrance"
         },
         {
-          "yaw": 1.4394407737921213,
-          "pitch": 0.13275095790686464,
+          "yaw": 1.4389222831495303,
+          "pitch": 0.1313605680291854,
           "rotation": 0,
-          "target": "3-lounge"
+          "target": "4-lounge"
         },
         {
-          "yaw": 1.3077998816832448,
-          "pitch": -0.1401919023110878,
+          "yaw": 1.2867913878437758,
+          "pitch": -0.019843172597916237,
           "rotation": 0,
-          "target": "4-office"
+          "target": "5-home-office"
+        },
+        {
+          "yaw": 0.8478455035029704,
+          "pitch": 0.38886903565204456,
+          "rotation": 0,
+          "target": "7-patio"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-kitchen",
+      "id": "3-kitchen",
       "name": "Kitchen",
       "levels": [
         {
@@ -109,26 +197,36 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": -0.8512324643144975,
+        "pitch": -0.07689725748786103,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -2.7149876590267112,
-          "pitch": 0.07441281571607306,
+          "yaw": -2.6386943064027104,
+          "pitch": 0.3772893201848504,
           "rotation": 0,
-          "target": "1-living-room"
+          "target": "2-living-room"
+        },
+        {
+          "yaw": 0.9595484760975523,
+          "pitch": 0.044482016631949506,
+          "rotation": 0,
+          "target": "7-patio"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-lounge",
+      "id": "4-lounge",
       "name": "Lounge",
       "levels": [
         {
@@ -143,9 +241,13 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -153,17 +255,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.6805316277107654,
-          "pitch": 0.028472809799056975,
+          "yaw": -1.6180584810616665,
+          "pitch": 0.1560620816154774,
           "rotation": 0,
-          "target": "1-living-room"
+          "target": "1-entrance"
+        },
+        {
+          "yaw": 2.8991070305305495,
+          "pitch": 0.573230388247552,
+          "rotation": 0,
+          "target": "0-courtyard"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-office",
-      "name": "Office",
+      "id": "5-home-office",
+      "name": "Home Office",
       "levels": [
         {
           "tileSize": 256,
@@ -177,32 +285,42 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 0.9405480762018943,
+        "pitch": -0.06054110842855209,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 1.7523119936590064,
-          "pitch": 0.11470641936978865,
+          "yaw": 1.7421895919013437,
+          "pitch": 0.28652161948199684,
           "rotation": 0,
-          "target": "5-bedroom"
+          "target": "6-bedroom"
         },
         {
-          "yaw": -1.7840267325587185,
-          "pitch": 0.33409055589227243,
+          "yaw": -1.8275512223849333,
+          "pitch": 0.5678408730079667,
           "rotation": 0,
-          "target": "1-living-room"
+          "target": "1-entrance"
+        },
+        {
+          "yaw": -1.7442539007607643,
+          "pitch": 0.36802209335574787,
+          "rotation": 0,
+          "target": "2-living-room"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-bedroom",
+      "id": "6-bedroom",
       "name": "Bedroom",
       "levels": [
         {
@@ -217,9 +335,13 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -227,44 +349,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.5725923216422562,
-          "pitch": 0.16040863093932423,
+          "yaw": -1.5560522273198618,
+          "pitch": 0.2848937084532004,
           "rotation": 0,
-          "target": "4-office"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-bathroom",
-      "name": "Bathroom",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.007305939730320787,
-          "pitch": 0.22922860329543937,
-          "rotation": 0,
-          "target": "4-office"
+          "target": "5-home-office"
         }
       ],
       "infoHotspots": []
@@ -285,23 +373,46 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 1.3298526410537246,
+        "pitch": -0.05570135455600855,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.2175027868444648,
+          "pitch": 0.17572803284479122,
+          "rotation": 0,
+          "target": "3-kitchen"
+        },
+        {
+          "yaw": -2.324823203937626,
+          "pitch": 0.22290429362211484,
+          "rotation": 0,
+          "target": "2-living-room"
+        },
+        {
+          "yaw": 3.0369872037216084,
+          "pitch": 0.47882895242367773,
+          "rotation": 0,
+          "target": "1-entrance"
+        }
+      ],
       "infoHotspots": []
     }
   ],
-  "name": "Unity Forma House",
+  "name": "Unity Forma House Demo",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
