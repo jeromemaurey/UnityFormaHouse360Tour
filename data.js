@@ -47,7 +47,7 @@ var APP_DATA = {
           "yaw": -1.5768408659547468,
           "pitch": 0.01843236200346965,
           "title": "Unity Forma House Demo",
-          "text": "<div>Watch our webinar, to learn how to create an immersive and interactive property walk-through using Unity Forma, here&nbsp;https://bit.ly/3gxETnl</div><div><br></div><div>All the 360 images for this walk-through were rendered using Unity Forma and Render Studio.</div><div><i><br></i></div><div><i>Content from the ArchVizPro assets, available on the Unity Asset Store!</i><br></div><div><br></div>"
+          "text": "<div>Watch our webinar to learn how to create an interactive immersive property walk-through using Unity Forma <a href='https://bit.ly/3gxETnl' target='_blank' style='color:#2196f3;'>here</a></div><div><br></div><div>All the 360 images for this walk-through were rendered using Unity Forma and Render Studio.</div><div><br></div>"
         }
       ]
     },
